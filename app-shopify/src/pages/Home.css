@@ -1,0 +1,11 @@
+div.card-design{
+
+margin: 70px auto;
+display : flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 40px;
+align-content: center;
+overflow-x: hidden;
+}
+

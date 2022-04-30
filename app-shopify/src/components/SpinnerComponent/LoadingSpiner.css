@@ -1,0 +1,24 @@
+.spinner {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.5rem solid #a683c7;
+    border-radius: 50%;
+    border-top-color: #d1a5fa;
+  
+    animation: spinner 1s cubic-bezier(0.86, 0, 0.07, 1) infinite;
+  }
+  
+  @keyframes spinner {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .centered {
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

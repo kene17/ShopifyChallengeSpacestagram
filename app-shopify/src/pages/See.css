@@ -1,0 +1,9 @@
+.test{
+    color:white;
+    
+}
+.tester{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
